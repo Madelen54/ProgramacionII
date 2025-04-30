@@ -31,7 +31,7 @@ v.geometry("500x520")
 v.configure(bg="azure3")
 frame1 = tk.Frame(v, width=350, height=100)
 frame1.pack(pady=20)
-tk.Label(frame1, text="Teatro Municipal", fg="blue", font=("Arial", 16, "bold")).pack(side="left", padx=10)
+tk.Label(frame1, text="Teatro Municipal", fg="black", font=("Arial", 16, "bold")).pack(side="left", padx=10)
 labelframe_datos = tk.LabelFrame(v, text="Datos del boleto", bg="lightBlue1", padx=10, pady=10)
 labelframe_datos.pack(pady=10)
 
